@@ -1,0 +1,23 @@
+# Secrets: never upload the API key
+.env
+.env.*
+
+# Python cache and environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Tools and editors
+.ipynb_checkpoints/
+.pytest_cache/
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Local model downloads
+.cache/
